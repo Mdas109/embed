@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>
+    <style>
+        .mute {
+            background: transparent;
+            border: 2px solid #c2c2c2;
+            padding: 5px;
+            color: #ddd;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px; background: #c60c20;" oncontextmenu="return false" onselectstart="return false" ondragstart="return false">
+    <div id="player-wrapper"></div>
+    <script>
+        var playerElement = document.getElementById("player-wrapper");
+        var player = new Clappr.Player({
+            source: "https://digitaldvd.pages.dev/nth/Vth/starsportstamil.m3u8",
+            mimeType: 'application/vnd.apple.mpegurl',
+            mute: false,
+            autoPlay: true,
+            height: '100vh',
+            width: '100%',
+        });
+        player.attachTo(playerElement);
+        player.play();
+        play();
+    </script>
+    <script>
+        function WSUnmute() {
+            document.getElementById("MutePlayer").style.display = "none";
+            player.setVolume(70);
+        }
+    </script>
+    <div id="MutePlayer" style="position: absolute; left: 20px; top: 15px; width: 250px; height: 45px;">
+        <button class="UnMute" onclick="WSUnmute()" style="background: red; border: 4px solid #12DB03; color: white;">
+            CLICK MUTE STREAM
+        </button>
+    </div>
+</body>
+
+<script type='text/javascript' src='//chalkedretrieval.com/43/b4/8e/43b48efb381e0f97d97a60a7fb3a0475.js'></script>
+
+
+</html>
