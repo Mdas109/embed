@@ -1,0 +1,17 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-MEDIA-SEQUENCE:474
+#EXT-X-ALLOW-CACHE:YES
+#EXT-X-TARGETDURATION:11
+#EXTINF:7.800044,
+http://funcomtv.ydns.eu:80/funcomtv/tvfuncom/10897.ts
+#EXTINF:10.400078,
+http://funcomtv.ydns.eu:80/funcomtv/tvfuncom/10897.ts
+#EXTINF:10.400078,
+http://funcomtv.ydns.eu:80/funcomtv/tvfuncom/10897.ts
+#EXTINF:10.400078,
+http://funcomtv.ydns.eu:80/funcomtv/tvfuncom/10897.ts
+#EXTINF:10.400078,
+http://funcomtv.ydns.eu:80/funcomtv/tvfuncom/10897.ts
+#EXTINF:10.400078,
+http://funcomtv.ydns.eu:80/funcomtv/tvfuncom/10897.ts
